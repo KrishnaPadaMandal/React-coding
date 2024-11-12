@@ -1,6 +1,9 @@
 // import Counter from "./Counter";
 // import UseRed from "./UseRed";
 
+// import UseM from "./memo/UseM";
+
+
 // import ConditionalRend from "./ConditionalRend";
 // import Parent from "./ContextAPI/Parent";
 
@@ -11,12 +14,13 @@
 // import Debounce from "./DropDown/Debounce";
 
 // import DropDown from "./DropDown/DropDown";
-
+// import Parent from "./datapass/Parent";
+import Parent_m from "./memo/Parent_m";
 
 function App() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', marginTop:"-250px" }}>
-
+      <Parent_m/>
     </div>
   );
 }
