@@ -1,6 +1,8 @@
 // import Counter from "./Counter";
 // import UseRed from "./UseRed";
 
+import Parent_C from "./memo/Parent_C";
+
 // import UseM from "./memo/UseM";
 
 
@@ -15,12 +17,11 @@
 
 // import DropDown from "./DropDown/DropDown";
 // import Parent from "./datapass/Parent";
-import Parent_m from "./memo/Parent_m";
+// import Parent_m from "./memo/Parent_m";
 
 function App() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', marginTop:"-250px" }}>
-      <Parent_m/>
     </div>
   );
 }
